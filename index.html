@@ -3,98 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Everything App Privacy Policy</title>
-<meta name="description" content="Privacy policy for Everything App, including its use of YouTube API Services.">
+<title>Everything App</title>
+<meta name="description" content="Everything App, a personal production tool that makes educational videos and publishes them to YouTube.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
 <header>
-  <nav><a href="./">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
-  <h1>Everything App Privacy Policy</h1>
-  <p class="meta">Effective November 4, 2026. Last updated November 4, 2026.</p>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+  <h1>Everything App</h1>
+  <p class="meta">A personal production tool operated by David Knight.</p>
 </header>
 
-<p>This policy explains what information Everything App ("the app", "we") accesses, collects, stores, uses and shares, including information obtained through YouTube API Services, and how you can have it deleted. You must agree to this policy, and to the <a href="terms.html">Terms of Service</a>, before you use the app's YouTube features.</p>
+<p>Everything App is David Knight's own tool for running his projects. One of its parts plans, writes and builds short educational videos, publishes them to his YouTube channel, and reports how they perform. It is not offered to the public; only its operator signs in.</p>
+
+<h2>YouTube features</h2>
+<a class="badge" href="https://www.youtube.com/@AmazingDavidYo">
+  <picture>
+    <source srcset="developed-with-youtube-sentence-case-light.png" media="(prefers-color-scheme: dark)">
+    <img src="developed-with-youtube-sentence-case-dark.png" alt="Developed with YouTube" width="300" height="107">
+  </picture>
+</a>
+<p>The app uses YouTube API Services to work with the channel <a href="https://www.youtube.com/@AmazingDavidYo">David's Amazing Educational Videos</a>:</p>
+<ul>
+  <li>Upload finished videos with their titles, descriptions, captions and thumbnails, and keep the channel's playlists in order.</li>
+  <li>Read the channel's video list and YouTube Analytics numbers once a day, and show them in the app's dashboards.</li>
+</ul>
+<p>By using these features you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. How the app handles YouTube data, how to have it deleted, and how to revoke access are described in the <a href="privacy.html">Privacy Policy</a>.</p>
 
 <div class="callout">
-  <p><strong>Everything App uses YouTube API Services.</strong> By using the app's YouTube features you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
-  <p>Google's handling of your information is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
-  <p>You can revoke the app's access to your YouTube account at any time on Google's security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
+  <p><a href="privacy.html"><strong>Privacy Policy</strong></a> · <a href="terms.html"><strong>Terms of Service</strong></a> · <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a></p>
 </div>
 
-<h2>1. Who operates the app and who uses it</h2>
-<p>Everything App is a personal production tool built and operated by David Knight. It produces educational videos and publishes them to YouTube channels its operator owns, such as <a href="https://www.youtube.com/@AmazingDavidYo">David's Amazing Educational Videos</a>, and reports how those videos perform. Only the operator signs in to the app and connects a YouTube account to it. The app is not offered to the public and does not let anyone else connect a YouTube account.</p>
-
-<h2>2. What we access through YouTube API Services</h2>
-<p>When the channel owner signs in with Google, the app asks for two permissions (OAuth scopes):</p>
-<ul>
-  <li><code>https://www.googleapis.com/auth/youtube.force-ssl</code>, to manage videos, captions, thumbnails and playlists on the connected channel.</li>
-  <li><code>https://www.googleapis.com/auth/yt-analytics.readonly</code>, to read YouTube Analytics reports for the connected channel.</li>
-</ul>
-<p>With these permissions the app reads:</p>
-<ul>
-  <li>The connected channel's ID, so it can confirm the sign-in belongs to the expected channel.</li>
-  <li>The list of videos on the connected channel: video ID, title, privacy status, publish date, duration, and YouTube's total view, like and comment counts.</li>
-  <li>Daily YouTube Analytics numbers for each of those videos: views, minutes watched, average view duration and percentage, likes, comments, shares and subscribers gained.</li>
-  <li>Totals of views and watch time by traffic source (for example YouTube search, Shorts feed, suggested videos, external sites).</li>
-  <li>The connected channel's playlists and the videos in them.</li>
-</ul>
-<p>With these permissions the app writes, only to the connected channel and only when its operator publishes or manages a video:</p>
-<ul>
-  <li>Uploads videos and sets their title, description, tags, category, privacy status and other video settings.</li>
-  <li>Uploads caption tracks and custom thumbnails.</li>
-  <li>Creates playlists and adds, orders or removes videos in them.</li>
-  <li>Deletes a video from the channel when the operator deletes the corresponding lesson in the app.</li>
-</ul>
-<p>All analytics the app reads are aggregate numbers about the operator's own videos. The app does not read comment text, viewer names or identities, subscriber lists, or any personal information about the people who watch the videos. The app never sees, collects or stores YouTube or Google account passwords; sign-in happens on Google's own pages.</p>
-
-<h2>3. Other information the app collects</h2>
-<ul>
-  <li><strong>Google sign-in token.</strong> Google issues an OAuth token when the channel owner grants access. It is stored only on the operator's own computers that publish videos, in a file that only the operator's user account can read. It is never sent to the app's server or to anyone else.</li>
-  <li><strong>Cookies.</strong> The app's web interface sets a sign-in cookie so the operator stays signed in. It is used only for that purpose. The app uses no advertising or tracking cookies, and this website sets no cookies.</li>
-  <li><strong>Information on devices.</strong> Apart from the sign-in token and cookie above, the app does not store or read information on users' devices for YouTube features.</li>
-</ul>
-
-<h2>4. How we use the information</h2>
-<ul>
-  <li>To publish and manage videos on the connected channel at the operator's direction.</li>
-  <li>To show the operator, in the app's web and mobile dashboards, how each video performs and where its views come from.</li>
-  <li>To help the operator decide what videos to make next. AI assistants working for the operator read the aggregate performance numbers to suggest topics.</li>
-</ul>
-<p>We do not use YouTube API data for advertising, do not sell it, and do not use it to build profiles of any person.</p>
-
-<h2>5. How we share the information</h2>
-<p>We do not sell or rent any information. YouTube API data is shared only with the service providers that run the app, and only so they can provide that service:</p>
-<ul>
-  <li><strong>Render</strong> (render.com) hosts the app's server and database in the United States, where the video list and analytics numbers are stored.</li>
-  <li><strong>Anthropic</strong> provides the Claude AI models the operator's assistants run on. When an assistant reads performance numbers to suggest topics, those numbers are sent to Anthropic for processing.</li>
-  <li><strong>Google / YouTube</strong> receive the videos, captions, thumbnails, playlists and settings the app publishes, as part of using YouTube API Services.</li>
-</ul>
-<p>The app does not allow third parties to serve content or advertisements in it. We may disclose information if required by law.</p>
-
-<h2>6. How long we keep it, and how to delete it</h2>
-<ul>
-  <li>The app refreshes the video list and analytics from YouTube once a day while access is authorized, and checks that its authorization is still valid on every refresh, at least every 30 days.</li>
-  <li>If access is revoked, or the app cannot confirm that it is still authorized, all YouTube API data stored for that channel is deleted within 30 days.</li>
-  <li>The channel owner can ask for deletion of all stored YouTube API data at any time by contacting us (section 9). We delete it as soon as possible and within 7 days.</li>
-  <li>Deleting data from the app does not delete videos or data stored by YouTube.</li>
-  <li>You can revoke the app's access at any time at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>, in addition to the deletion process above.</li>
-</ul>
-
-<h2>7. Security</h2>
-<p>Data travels to and from YouTube and the app's server over HTTPS. The app's server and database require the operator's sign-in. Google sign-in tokens stay on the operator's own computers with access limited to the operator's account.</p>
-
-<h2>8. Children</h2>
-<p>The app is not directed to children and does not knowingly collect personal information from anyone under 13.</p>
-
-<h2>9. Contact</h2>
-<p>Questions or complaints about these privacy practices, and deletion requests, go to David Knight at <a href="mailto:david@knight.fm">david@knight.fm</a>.</p>
-
-<h2>10. Changes to this policy</h2>
-<p>If we change how the app uses YouTube API data, we will update this page and its date before the change takes effect, and ask for agreement to the updated policy before using the data in the new way.</p>
-
-<footer>Everything App · <a href="terms.html">Terms of Service</a> · <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> · <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a></footer>
+<footer><a href="./">Everything App</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · Contact: <a href="mailto:david@knight.fm">david@knight.fm</a></footer>
 </main>
 </body>
 </html>
